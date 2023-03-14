@@ -59,6 +59,13 @@
     border: 1px solid #008000;
 }
 
+/* shop his stuff */
+
+#shop {
+    color:black;
+    font-size: 2em;
+    padding:1rem;
+}
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
