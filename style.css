@@ -6,7 +6,7 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('images/Josh.jpeg');
     background-size:cover;
     position:relative;
 }
@@ -49,9 +49,14 @@
     text-align: center;
     width: 100%;
 }
-.card-title {
+.card-title, .card-text {
     text-align: center;
 }
+
+.card-text {
+    text-decoration: none;
+}
+
 .card:hover .servicesIcon {
     color: #008000;
 }
@@ -79,6 +84,27 @@
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #c3bfbf;
     text-align: center;
 }
+
+.fa-tree {
+    color: #02593D;
+    margin-left: .3rem;
+  }
+
+  #shop {
+    color: #008000;
+    text-decoration: none;
+  }
+
+  a {
+    color: #008000;
+  }
+
+  ************************tablet styles************************************/
+    @media only screen and (min-width: 768px){ 
+
+
+        
+     }
