@@ -44,6 +44,7 @@
     height: 280px;
     cursor: pointer;
   }
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -60,17 +61,26 @@
 .card:hover .servicesIcon {
     color: #008000;
 }
+
 .servicesText:hover {
     border: 1px solid #008000;
 }
 
-/* shop his stuff */
-
-#shop {
+.card-body a {
     color:black;
+    text-decoration: none;
+}
+
+/* Contact section and shop his stuff */
+
+.contact #shop a{
+    color:black;
+    text-decoration: none;
     font-size: 2em;
     padding:1rem;
 }
+
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -93,18 +103,10 @@
     margin-left: .3rem;
   }
 
-  #shop {
-    color: #008000;
-    text-decoration: none;
-  }
-
-  a {
-    color: #008000;
-  }
-
+  
   ************************tablet styles************************************/
     @media only screen and (min-width: 768px){ 
 
 
-        
+
      }
